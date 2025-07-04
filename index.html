@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feliz Cumpleaños!!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Playwrite+US+Trad&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Feliz Cumpleaños Tia</h1>
+        <p id="small">Dale click a la pagina</p>
+    </header>
+    <section class="container">
+        <article onclick="PlayAudio1()" class="POST">
+            <h2>Gracias</h2>
+            <p>Es dificil de decir pero lo intentare ;) (Dale Click Aqui)</p>
+            <img src="img/M1.jpg" width="500"/>
+            <p>Es dificil describir con palabras lo mucho que significas para mi tia, pero voy a intentar hacerlo a lo largo de esta pagina web :)</p>
+        </article>
+        <article onclick="PlayAudio2()" class="POST">
+            <h2>Danke Schön</h2>
+            <p>Eres una persona increible, y nunca dejes que nadie te diga lo contrario</p>
+            <img src="img/M2.jpg" width="500"/>
+            <p>Tia eres una persona unica e inigualable, con tus chistes, comentarios, bailes espontaneos y acciones no sabes cuantos dias me alegraste, y siempre has sido una bendicion para mi y para toda la familia</p>
+        </article>
+        <article onclick="PlayAudio3()" class="POST">
+            <h2>Thank you</h2>
+            <p>Cliche or not, you are the best aunt ever</p>
+            <img src="img/M3.JPG" width="500"/>
+            <p>Te deseo lo mejor en este dia tan especial, y que siempre sepas que a pesar de la distancia siempre vas a tener un hogar y un sitio seguro aqui en Colombia, un lugar donde nunca se te cerrara las puertas ni se te negara nada</p>
+        </article>
+        <article class="POST">
+            <h2>Moltes gràcies</h2>
+            <p>Me quedo corto</p>
+            <img src="img/M4.jpg" width="500">
+            <p>Te amo, Muchisimo y mas, gracias por ayudarme en los momentos dificiles, por apoyarme desde la distancia o via whatsapp, por estar presente de mente a pesar de que tu cuerpo se encuentre mas lejos de lo que quisiera, por quererme y siempre apoyarme, y que sepas que yo, Harvey Santiago no seria el que soy hoy sin ti.</p>
+        </article>
+        <audio id="aud1">
+            <source src="aud/Ms2.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="aud2">
+            <source src="" type="audio/mpeg">
+        </audio>
+        <audio id="aud3">
+            <source src="" type="audio/mpeg">
+        </audio>
+    </section>
+    <footer>
+        <section><a target="_blank" href="https://www.google.com/">Contacto</a></section>
+        <p>©Copyright 2025</p>
+        <p>Created By Your Nephew</p>
+    </footer>
+    <script>
+        function PlayAudio1(){
+            document.getElementById("aud1").play();
+        }
+        function PlayAudio2(){
+            document.getElementById("aud2").play();
+        }
+        function PlayAudio3(){
+            document.getElementById("aud3").play();
+        }
+    </script>
+</body>
+</html>
